@@ -4,14 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Maven Test App</title>
 </head>
 <body>
 <jsp:useBean id="u" class="com.untd.User"></jsp:useBean>  
 <jsp:setProperty property="*" name="u"/>  
-  
-Welcome  
-
+Welcome to App
 <jsp:getProperty property="name" name="u"/><br>  
 </body>
 </html>
